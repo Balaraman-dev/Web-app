@@ -50,7 +50,7 @@ Fontend Directory Tree:
 D:\Files\Academy\6th_sem\Shopping_WE\src\components
 Shopping_WE/
 │
-├── .gitignore
+├── .gitignore                                                                                                                                      
 ├── eslint.config.js
 ├── index.html
 ├── package.json
