@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes colorCycle {
+  0%   { color: #e11d48; }   /* red-600 */
+  10%  { color: #f59e0b; }   /* amber-500 */
+  20%  { color: #10b981; }   /* emerald-500 */
+  30%  { color: #3b82f6; }   /* blue-500 */
+  40%  { color: #e11d48; }
+  50%  { color: #8b5cf6; }   /* violet-500 */
+  60%  { color: #ec4899; }   /* pink-500 */
+  70%  { color: #22d3ee; }   /* cyan-400 */
+  80%  { color: #facc15; }   /* yellow-400 */
+  90%  { color: #16a34a; }   /* green-600 */
+  100% { color: #8b5cf6; }   /* back to red-600 */
+}
+
+.animate-color-cycle {
+  animation: colorCycle 4s linear infinite;
+}
